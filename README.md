@@ -22,10 +22,12 @@ third-party dependencies; standard library only, Python 3.9+.
 python-exercises/
 ├── main.py                     # demo + assertion runner
 ├── solutions/
-│   ├── __init__.py
-│   ├── linkedlist_common.py    # shared ListNode + build/convert helpers
-│   ├── trees_common.py         # shared TreeNode + level-order builder
+│   ├── __init__.py        
 │   └── <category>_<name>.py    # one exercise per file
+|-- helpers
+|   |-- trees_common.py       # shared TreeNode + level-order builder
+|-- builders
+|   |-- linkedlist_common.py   # shared ListNode + build/convert helpers
 └── README.md
 ```
 
