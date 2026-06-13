@@ -4,7 +4,7 @@ Complete solutions to the Data Engineer Academy Python exercise set. Every solut
 lives in its own file under `solutions/`, with type hints, a docstring, and a
 Big-O complexity note. `main.py` imports each one and runs it against a few
 deliberately chosen edge-case inputs; the `assert`s in it double as lightweight
-regression tests.
+regression tests.builders and helpers are common utils for related python usecases.
 
 ## Run
 
